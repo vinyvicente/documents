@@ -10,7 +10,7 @@ before_script:
   - curl -sS https://getcomposer.org/installer | php
   - chmod +x composer.phar
   - php composer.phar install -o
-script: phpunit -c src/
+script: phpunit -c tests/
 notifications:
   email:
     - vinyvicente@gmail.com
