@@ -4,15 +4,12 @@ php:
 branches:
   only:
     - master
-cache:
-  directories:
-  - vendor
 before_script:
   - php -v
   - phpunit --version
   - curl -sS https://getcomposer.org/installer | php
   - chmod +x composer.phar
-  - php composer.phar install
+  - php composer.phar install -o
 script: phpunit -c src/
 notifications:
   email:
