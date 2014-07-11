@@ -1,0 +1,17 @@
+{
+    "name": "vinyvicente/documents",
+    "authors": [
+        {
+            "name": "Vinicius Vicente",
+            "email": "vinyvicente@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
