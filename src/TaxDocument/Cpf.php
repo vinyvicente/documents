@@ -8,6 +8,9 @@ namespace TaxDocument;
  */
 class Cpf extends TaxDocumentAbstract
 {
+    /**
+     * @const string
+     */
     const DIGITS = 11;
 
     /**
